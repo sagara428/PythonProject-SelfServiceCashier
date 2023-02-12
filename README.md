@@ -29,7 +29,7 @@ By the previous program objective, there are two modular codes which need to be 
 This module consist of Transaction class and its methods. Here are the description of each methods in Transaction class:
 
 _Diagram 1: Description of Transaction class' methods_
-<img src="img/Transaction class.jpg" width="500"/>
+<img src="img/Transaction Class.jpg" width="500"/>
 
 ### Cashier.py
 This module consist of simple UI/simple main menu for the self-service cashier program. This module utilized the Transaction module (by importing all methods). Here are the flowchart of Cashier.py:
