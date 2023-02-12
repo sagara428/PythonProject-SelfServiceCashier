@@ -35,7 +35,7 @@ _Diagram 1: Description of Transaction class' methods_ \
 This module consist of simple UI/simple main menu for the self-service cashier program. This module utilized the Transaction module (by importing all methods). Here are the flowchart of Cashier.py and simple main menu of self-service cashier program:
 
 _Diagram 2: Self-service Cashier simple main menu flowchart_ \
-<img src="img/Flowchart.png" width="500"/>
+<img src="img/Flowchart.jpg" width="500"/>
 
 _Diagram 3: Self-service Cashier simple main menu_ \
 <img src="img/simple_main_menu.png" width="500"/>
