@@ -29,13 +29,13 @@ By the previous program objective, there are two modular codes which need to be 
 This module consist of Transaction class and its methods. Here are the description of each methods in Transaction class:
 
 _Diagram 1: Description of Transaction class' methods_
-<img src="img/Transaction class.jpg" width="1000"/>
+<img src="img/Transaction class.jpg" width="500"/>
 
 ### Cashier.py
 This module consist of simple UI/simple main menu for the self-service cashier program. This module utilized the Transaction module (by importing all methods). Here are the flowchart of Cashier.py:
 
 _Diagram 2: Self-service Cashier simple main menu flowchart_
-<img src="img/Flowchart.png" width="1000"/>
+<img src="img/Flowchart.png" width="500"/>
 
 
 
@@ -43,10 +43,10 @@ _Diagram 2: Self-service Cashier simple main menu flowchart_
 1. Download this git repository to your local computer.
 \
 _Diagram 3: Self-service Cashier simple main menu_
-<img src="img/repository.png" width="1000"/>
+<img src="img/repository.png" width="500"/>
 
 _Diagram 4: Self-service Cashier simple main menu_
-<img src="img/simple_main_menu.png" width="1000"/>
+<img src="img/simple_main_menu.png" width="500"/>
 
 
 
