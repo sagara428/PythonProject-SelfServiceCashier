@@ -253,36 +253,42 @@ class Transaction:
     
     def total_price(self):
         '''Function to calculate total price'''
-        # Initialize total_price variable as 0
-        total_price = 0
+        # Check if the shopping cart is empty
+        if len(self.shopping_cart) == 0:
+            # Shows alert and instruction
+            print('The shopping cart is empty!')
+            print('Please add some items')
+        else: # Calculate total price if not empty
+            # Initialize total_price variable as 0
+            total_price = 0
 
-        # Calculate the sum of each item's total price
-        for index in range(1, len(self.data)):
-            total_price += self.data[index][3]
+            # Calculate the sum of each item's total price
+            for index in range(1, len(self.data)):
+                total_price += self.data[index][3]
 
-        # Conditional for discount     
-        if total_price > 500_000:
-            discount = 0.1 # 10% discount
-            total_price -= discount * total_price
-            print('You get 10% discount!')
-        elif total_price > 300_000: 
-            discount = 0.08 # 8% discount
-            total_price -= discount * total_price
-            print('you get 8% discount!')
-        elif total_price > 200_000:
-            discount = 0.05 #5% discount
-            total_price -= discount * total_price
-            print('you get 5% discount!')
-        else:
-            # Shows discount list if the user
-            # does not get any discount
-            print('You get no discount')
-            print('''
-            Discount list if you are interested:
-            5%: if total price is greater than 200000
-            8%: if total price is greater than 300000
-            10%: if total price is greater than 500000
-            ''')
+            # Conditional for discount     
+            if total_price > 500_000:
+                discount = 0.1 # 10% discount
+                total_price -= discount * total_price
+                print('You get 10% discount!')
+            elif total_price > 300_000: 
+                discount = 0.08 # 8% discount
+                total_price -= discount * total_price
+                print('you get 8% discount!')
+            elif total_price > 200_000:
+                discount = 0.05 #5% discount
+                total_price -= discount * total_price
+                print('you get 5% discount!')
+            else:
+                # Shows discount list if the user
+                # does not get any discount
+                print('You get no discount')
+                print('''
+                Discount list if you are interested:
+                5%: if total price is greater than 200000
+                8%: if total price is greater than 300000
+                10%: if total price is greater than 500000
+                ''')
 
-        # Shows the total price after discount (if any)
-        print(f'Total price: Rp.{total_price:,.2f}')
+            # Shows the total price after discount (if any)
+            print(f'Total price: Rp.{total_price:,.2f}')
