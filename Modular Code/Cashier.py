@@ -9,7 +9,7 @@ print('''
        WELCOME TO SELF SERVICE CASHIER!!!          
 -----------------------------------------------
 ''')
-
+##asdadsasasd
 while True:
     print('''
     Choose one of the following features:
