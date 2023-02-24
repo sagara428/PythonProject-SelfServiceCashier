@@ -72,6 +72,13 @@ class Transaction:
         '''
         # While loop to let users try again if the input is wrong
         while True:
+            # Check if the shopping cart is empty
+            if len(self.shopping_cart) == 0:
+                # Shows alert and instruction
+                print('The shopping cart is empty!')
+                print('Please add some items')
+                break 
+
             # Input item name
             self.item_name = input('Item name: ').capitalize()
             # Indicator to check whether the item name is in 
@@ -106,6 +113,13 @@ class Transaction:
         '''
         # While loop to let users try again if the input is wrong
         while True:
+            # Check if the shopping cart is empty
+            if len(self.shopping_cart) == 0:
+                # Shows alert and instruction
+                print('The shopping cart is empty!')
+                print('Please add some items')
+                break 
+
             # Input item name
             self.item_name = input('Item name: ').capitalize()
             # Indicator to check whether the item name is in 
@@ -139,6 +153,13 @@ class Transaction:
         '''
         # While loop to let users try again if the input is wrong
         while True:
+            # Check if the shopping cart is empty
+            if len(self.shopping_cart) == 0:
+                # Shows alert and instruction
+                print('The shopping cart is empty!')
+                print('Please add some items')
+                break 
+
             # Input item name
             self.item_name = input('Item name: ').capitalize()
             # Indicator to check whether the item name is in 
@@ -170,6 +191,13 @@ class Transaction:
         '''
         # While loop to let users try again if the input is wrong
         while True:
+            # Check if the shopping cart is empty
+            if len(self.shopping_cart) == 0:
+                # Shows alert and instruction
+                print('The shopping cart is empty!')
+                print('Please add some items')
+                break 
+            
             # Input item name
             self.item_name = input('Item name: ').capitalize()
             # Indicator to check whether the item name is in 
