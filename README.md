@@ -42,9 +42,17 @@ _Diagram 3: Self-service Cashier simple main menu_ \
 
 
 ## D. Guide to Use Self-service Cashier Program
+There are two ways to start the Self-service Cashier Program.
+
+### EXE files
+1. Download this git repository to your local computer.
+2. Open the "Program (EXE file)" folder.
+3. Double-click the "Cashier" EXE file to run the program.
+
+### Terminal/Command Prompt
 1. Download this git repository to your local computer.
 2. Make sure that the tabulate library is installed.
-3. Execute "Cashier.py" in "Modular Code" folder by using terminal.
+3. Execute "Cashier.py" in "Modular Code" folder by using terminal/command prompt.
 
 ## E. Test Case
 
