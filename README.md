@@ -13,13 +13,13 @@ Learning objective:
 * Applying modular code concept in python programming
 
 Program objective: 
-* Adding new items to shopping cart
+* Add new items to shopping cart
 * Show/check items in shopping cart 
 * Delete an item from shopping cart  
 * Delete all items from shopping cart (reset transaction)
-* Updating item name
-* Updating item quantity
-* Updating item price
+* Update item name
+* Update item quantity
+* Update item price
 * Calculate total price
 
 ## C. Modular Code Description
